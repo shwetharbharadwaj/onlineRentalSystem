@@ -1,0 +1,93 @@
+  <html>
+  <title>membership</title>
+  <head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  </head>
+  <header>
+
+  <div class="topnav">
+  <div class="topnav-left">
+  <a href="index.html"><img src="images/logo.png" height="50" width="80"></a>   
+  </div>
+  <a  href="index.html">Home <i class="fa fa-home"></i></a>
+  <a href="about.html">About</a>
+  <a href="membership.html">Membership form</a>
+  <a href="contact.html">Contact us</a>
+  </div>
+  </header>
+  <!-- <marquee><p> Please fill out this form </p></marquee> -->
+  <table class="gest" align="center" cellpadding = "10" border="none">
+  <form method="post"id="form">
+  <tr>
+  <td>FIRST NAME</td>
+  <td><input type="text" placeholder="First_Name" id="fname" />
+  </td>
+  </tr>
+  <tr>
+  <td>LAST NAME</td>
+  <td><input type="text" placeholder="Last_Name" id="lname" maxlength="30"/>
+  </td>
+  </tr>
+  <tr>
+  <td>GENDER</td>
+  <td>
+  Male <input type="radio" placeholder="Gender" id="male" value="Male" />
+  Female <input type="radio" placeholder="Gender" id="female" value="Female" />
+  </td>
+  </tr>  
+  <tr>
+  <td>Email</td>
+  <td><input type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your email" id="email">
+  </td>
+  </tr> 
+  <tr>
+  <td>Password</td>
+  <td><input  type ="Password" placeholder="password" id="password" maxlength="30"/>
+  </td>
+  </tr> 
+  <tr>
+  <td>Date of birth </td>
+  <td><input  type ="date" placeholder="date" id="date"maxlength="30"/>
+  </td>
+  </tr>
+  <td>Telephone(if any)</td>
+  <td><input  type ="tel" placeholder="tel" maxlength="8"/>
+  </td>
+  </tr>  
+  <tr>
+  <td>Mobile number</td>
+  <td><input  type ="tel" placeholder="Mobile" id="phone" maxlength="10" />
+  </tr>    
+  <tr>
+  <td>Select your city</td>
+  <td>
+  <select name="dropdown" id=" dropdown">
+  <option value="select">Select</option>
+  <option value="Bengaluru">Bengaluru</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Chennai">Chennai</option>
+  </select>
+  </tr>   
+  <tr>
+  <tr>
+  <td>Add your image(for membership purpose)
+  <td> <input type="file" placeholder= "file" id="image"></td>
+  </tr>
+
+  <td><input type="checkbox" id="checkbox" style="border: none"> I accept <a href="none">Terms & conditions.
+  </a>
+  </td>
+  </tr>       
+  <td><input type="button" value="submit" onclick="validation()" clear>
+  <td><input type ="reset" value="reset">
+  </td>
+  </td>
+  
+  </body>
+
+   <script src="javascript.js"></script>
+  </html>

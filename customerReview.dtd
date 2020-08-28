@@ -1,0 +1,7 @@
+<!DOCTYPE CUSTOMERDETAILS [
+<!ELEMENT CUSTOMERDETAILS (details+)>
+<!ELEMENT details (customername,purchased,rating)>
+<!ELEMENT customername (#PCDATA)>
+<!ELEMENT purchased (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+]>

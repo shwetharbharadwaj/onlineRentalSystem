@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE CUSTOMERDETAILS [
+<!ELEMENT CUSTOMERDETAILS (details+)>
+<!ELEMENT details (customername,purchased,rating)>
+<!ELEMENT customername (#PCDATA)>
+<!ELEMENT purchased (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+]>
+<CUSTOMERDETAILS>
+    <details>
+        <customername>SHWETHA R</customername>
+        <purchased>3 seater sofa</purchased>
+        <rating>4</rating>
+    </details>
+    <details>
+        <customername>HRITHIK</customername>
+        <purchased>Full sofa set</purchased>
+        <rating>5</rating>
+    </details>
+    <details>
+        <customername>SHARUKH</customername>
+        <purchased>EASY CHAIR</purchased>
+        <rating>5</rating>
+    </details>
+    <details>
+        <customername>SALMAN</customername>
+        <purchased>CHAIR</purchased>
+        <rating>4</rating>
+    </details>
+    <details>
+        <customername>BARUN</customername>
+        <purchased>SOFA SET</purchased>
+        <rating>4</rating>
+    </details>
+</CUSTOMERDETAILS>

@@ -1,0 +1,204 @@
+<html>
+<title>Rental</title>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head><header>
+<div class="topnav">
+<div class="topnav-left">
+<a href="lab2.html"><img src="images/logo.png" height="50" width="80"></a>   
+</div>
+<a  href="index.html">Home <i class="fa fa-home"></i></a>
+<a href="about.html">About</a>
+<a href="membership.html">Memberhip form</a>
+<a class="active" href="contact.html">Contact us</a>
+</div>
+</header>
+<center>
+<div id="cf">
+<img class="bottom" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" width="400" height="200" />
+<img class="top" src="images/sofa.jpg" width="400" height="200"/>
+</div>
+<!-- <canvas id="myCanvas" width="350" height="100" style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("30% off on first order",10,50);
+</script> -->
+<p> A small talk by happy customers.</p>
+<audio controls>
+<source src="maresadiru.mpeg" type="audio/ogg">
+</audio>
+<style>
+table,th {
+border : 1px solid black;
+border-collapse: collapse;
+background-color: #C0C0C0;
+}
+th,td {
+padding: 5px;
+}
+td{
+
+}
+</style>
+<body>
+
+<br><br>
+<table id="demo"></table>
+
+<script type="text/javascript">
+var xmlFile = 'https://shwetharbharadwaj.github.io/xmlfile/xmlValuation.xml';
+
+function loadDoc() {
+var xhttp = new XMLHttpRequest();
+
+xhttp.open("GET", xmlFile, true);
+xhttp.send();
+xhttp.onreadystatechange = function() {
+if (this.readyState === 4 && this.status === 200) {
+
+xmlFunction(this.response);
+}
+};
+
+}
+
+function xmlFunction(xml) {
+    var parser = new DOMParser();
+    var xmlDoc = parser.parseFromString(xml, "text/xml");
+    var table = "<tr><th>Name</th><th>Purchased</th><th>Rating</th></tr>";
+    var x = xmlDoc.getElementsByTagName("details");
+    for (var elem of x) {
+    var catt = elem.getElementsByTagName("customername")[0].childNodes[0].nodeValue;
+    var cats = elem.getElementsByTagName("purchased")[0].childNodes[0].nodeValue;
+    var subCats = elem.getElementsByTagName("rating")[0].childNodes[0].nodeValue;
+    table +="<tr><td>"+ catt + "</td><td>"+ cats + "</td><td>" + subCats + "</td></tr>";
+}
+  document.getElementById("demo").innerHTML = table;
+}
+loadDoc();
+</script>
+<table id="demo"></table>
+
+</center>
+<hr>
+<center><b> list of furniture available for rent </b></center>
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://ii1.pepperfry.com/media/catalog/product/t/a/568x284/tanaka-three-seater-sofa-in-matte-black-colour-by-mintwud-tanaka-three-seater-sofa-in-matte-black-co-41nzaz.jpg" alt="Avatar" style="width:100%; float:none;">
+<h4>Sofa (3 seater leather)</h4>
+<p>3.6k/- per month*</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://ii1.pepperfry.com/media/catalog/product/a/n/568x284/andres-three-seater-sofa-in-chestnut-brown-colour-by-woodsworth-andres-three-seater-sofa-in-chestnut-8ri46z.jpg" alt="Avatar" style="width:100%; float:none;">
+<h4>Sofa(3 seater cushion )</h4>
+<p>2.1k/- per month*</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://ii1.pepperfry.com/media/catalog/product/a/n/568x284/andres-three-seater-sofa-in-beige-colour-by-woodsworth-andres-three-seater-sofa-in-beige-colour-by-w-enyie9.jpg" alt="Avatar" style="width:100%; float:none;">
+<h4>Sofa(3 Seater in Beige Colour)</h4>
+<p>3.1k/- per month*</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://ii1.pepperfry.com/media/catalog/product/a/n/568x284/andres-three-seater-sofa-in-ash-grey-colour-by-woodsworth-andres-three-seater-sofa-in-ash-grey-colou-2g1fdf.jpg" alt="Avatar" style="width:100%; float:none;">
+<h4>Sofa( 3 Seater in Ash grey)</h4>
+<p>3.5k/- per month*</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<center><b> list of cars available for rent </b></center>
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://sx-content-labs.sixt.io/Media/2fleet-350x200/mb-cla-4d-silber-2015.png" alt="Avatar" style="width:100%; float:none;">
+<h4>6 + 1 seater</h4>
+<p>1.5k per month*</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTOyYjpU9hb6IUJyVM4tR7KO55RWbL0WUGpw&usqp=CAU" alt="Avatar" style="width:100%; float:none;">
+<h4>4 + 1 seater</h4>
+<p>1.2k per month*</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://sx-content-labs.sixt.io/Media/2fleet-350x200/mb-c-klasse-4d-schwarz-2018.png" alt="Avatar" style="width:100%; float:none;">
+<h4>4 + 1 seater</h4>
+<p>1.1k per month*</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://sx-content-labs.sixt.io/Media/2fleet-350x200/mb-c-klasse-4d-schwarz-2018.png" alt="Avatar" style="width:100%; float:none;">
+<h4>6 + 1 seater</h4>
+<p>1.6k per month*</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- <div class="card">
+<img src="https://ii1.pepperfry.com/media/catalog/product/r/o/494x544/royal-wing-chair-in-blue-color-by-dreamzz-furniture-royal-wing-chair-in-blue-color-by-dreamzz-furnit-6hcjya.jpg" alt="Avatar" style="width:100%; float:none;">
+<div class="container">
+<h4><b>Sofa (medium)</b></h4> 
+<p>6000/- per month</p> 
+</div>
+</div> -->
+<!-- <div class="card">
+<img src="images/sofa.jpg" alt="Avatar" style="width:100%;">
+<div class="container">
+<h4><b>Sofa (medium)</b></h4> 
+<p>6000/- per month</p> 
+</div>
+</div> -->
+<hr>
+<p><b>Find us here</b></p>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="160%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=bangalore%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://google-map-generator.com">google map embed iframe</a></div></div>
+</body>
+<hr>
+<footer>
+<p>Posted by: Shwetha R Bharadwaj</p>
+
+<p>Contact information: <a href="mailto:someone@example.com">
+someone@example.com</a>.</p>
+</footer>
+</html>

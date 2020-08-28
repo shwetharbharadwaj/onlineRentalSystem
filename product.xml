@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "products.xsl"?> 
+<cutomerList> 
+   <!-- Comment: This is a list of student --> 
+   <cutomerId id = "1" type="owner"> 
+      
+            <product>Car</product>
+            <name>Shwetha R</name> 
+            <rent>2000/hour</rent>
+             <duration>24hrs</duration>
+             <discount>1.5%</discount>
+   </cutomerId>  
+   <customerId id = "2" type="second-owner"> 
+
+        <product>Two wheeler</product>
+        <rent>1500/day</rent>
+        <name>Reena</name> 
+        <duration>2 days</duration>
+        <discount>1.4%</discount>
+   </customerId > 
+
+   <customerId id = "3" type="game"> 
+    <product> Flat</product>
+    <rent>13500</rent>
+    <name>sindhu</name> 
+    <duration>6 months</duration>
+    <discount>2%</discount>
+   </customerId > 
+
+   <customerId id = "4" type="game"> 
+    <product> Flat</product>
+    <rent>13500</rent>
+    <name>sindhu</name> 
+    <duration>6 months</duration>
+    <discount>2%</discount>
+   </customerId > 
+
+    <customerId id = "5" type="owner">  
+    <product> Flat</product>
+    <rent>13500</rent>
+    <name>sindhu</name> 
+    <duration>6 months</duration>
+    <discount>2%</discount>
+   </customerId > 
+
+    <customerId id = "6" type="owner"> 
+    <product> Flat</product>
+    <rent>13500</rent>
+    <name>sindhu</name> 
+    <duration>6 months</duration>
+    <discount>2%</discount>
+   </customerId > 
+
+    <customerId id = "7" type="owner">    
+      <product> sofa</product>
+    <rent>1200/month</rent>
+    <name>sankey</name> 
+    <duration>6 months</duration>
+    <discount>2%</discount>
+   </customerId > 
+   
+</productlist>

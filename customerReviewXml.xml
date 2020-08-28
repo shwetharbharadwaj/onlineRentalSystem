@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE CUSTOMERDETAILS SYSTEM "customerReview.dtd">
+<CUSTOMERDETAILS>
+    <details>
+        <customername>Sam</customername>
+        <purchased>3 seater sofa</purchased>
+        <rating>4</rating>
+    </details>
+    <details>
+        <customername>Fam</customername>
+        <purchased>Full sofa set</purchased>
+        <rating>5</rating>
+    </details>
+    <details>
+        <customername>Ham</customername>
+        <purchased>EASY CHAIR</purchased>
+        <rating>5</rating>
+    </details>
+    <details>
+        <customername>San</customername>
+        <purchased>CHAIR</purchased>
+        <rating>4</rating>
+    </details>
+    <details>
+        <customername>Kim</customername>
+        <purchased>SOFA SET</purchased>
+        <rating>4</rating>
+    </details>
+</CUSTOMERDETAILS>
